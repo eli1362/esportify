@@ -1,0 +1,37 @@
+# Ignore config and environment files (DB credentials, secrets)
+config.php
+backend/config.php
+.env
+
+# Ignore composer dependencies if using Composer
+/vendor/
+
+# Ignore node dependencies if using npm
+/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore cache, temporary, or compiled files
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore uploads if not needed in repo (optional)
+uploads/
+assets/images/uploads/
+
+# Ignore local development files
+*.local
+*.env.local
+.env.*
